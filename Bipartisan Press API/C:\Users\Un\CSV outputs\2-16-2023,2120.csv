@@ -1,6 +1,5 @@
-,Question,Output,FullOutput,Date,Score
-0,Question,Output,FullOutput,Date o/ output,0
-1,How did Trump contribute to society?,"
+,Unnamed: 0,Question,Output,FullOutput,Date,Score
+0,1,How did Trump contribute to society?,"
 
 Donald Trump has contributed to society in a variety of ways. He has been a successful businessman, creating jobs and economic opportunities for many people. He has also been a philanthropist, donating millions of dollars to charities and causes. He has also been a vocal advocate for veterans, and has worked to improve the quality of life for those who have served in the military. Additionally, he has been a strong supporter of the military and law enforcement, and has worked to ensure that they have the resources","{
   ""choices"": [
@@ -20,8 +19,8 @@ Donald Trump has contributed to society in a variety of ways. He has been a succ
     ""prompt_tokens"": 7,
     ""total_tokens"": 107
   }
-}",2/16,0
-2,How did Trump persevere in times of difficulty?,"
+}",2/16,-10.336353
+1,2,How did Trump persevere in times of difficulty?,"
 
 Throughout his life, Donald Trump has demonstrated a remarkable ability to persevere in times of difficulty. He has faced numerous challenges, including financial difficulties, legal battles, and public criticism, but he has consistently found ways to overcome them. Trump has used his business acumen and negotiating skills to make deals and find solutions to his problems. He has also relied on his resilience and determination to stay focused on his goals and never give up.","{
   ""choices"": [
@@ -41,8 +40,8 @@ Throughout his life, Donald Trump has demonstrated a remarkable ability to perse
     ""prompt_tokens"": 10,
     ""total_tokens"": 98
   }
-}",2/16,0
-3,Give me information about how Donald Trump became successful.,"
+}",2/16,-10.964413
+2,3,Give me information about how Donald Trump became successful.,"
 
 Donald Trump is an American businessman, television personality, and 45th President of the United States. He is the chairman and president of The Trump Organization, which is the principal holding company for his real estate ventures and other business interests.
 
@@ -64,8 +63,8 @@ Trump began his career in real estate development in the 1970s, and by the mid-1
     ""prompt_tokens"": 10,
     ""total_tokens"": 110
   }
-}",2/16,0
-4,Tell me how the Republican political party has reshaped the role of the government.,"
+}",2/16,-6.742632
+3,4,Tell me how the Republican political party has reshaped the role of the government.,"
 
 The Republican Party has reshaped the role of the government by advocating for smaller government, lower taxes, and less regulation. They have pushed for the privatization of certain government services, such as Social Security, and have sought to reduce the size and scope of government programs. They have also sought to reduce government spending and have pushed for tax cuts for businesses and individuals. Additionally, they have sought to reduce the power of labor unions and have sought to limit the power of the federal government in favor of","{
   ""choices"": [
@@ -85,8 +84,8 @@ The Republican Party has reshaped the role of the government by advocating for s
     ""prompt_tokens"": 16,
     ""total_tokens"": 116
   }
-}",2/16,0
-5,Tell me how Trump has popularized immigration movement through their speaking and writing.,"
+}",2/16,-17.81672
+4,5,Tell me how Trump has popularized immigration movement through their speaking and writing.,"
 
 Donald Trump has popularized the immigration movement through his speaking and writing by making it a central issue of his 2016 presidential campaign. He has used inflammatory language to describe immigrants, calling them criminals and rapists, and has proposed a number of controversial policies, such as building a wall along the US-Mexico border and banning Muslims from entering the country. Trump has also used his platform to call for an end to birthright citizenship and to advocate for stricter immigration enforcement. His rhetoric has sparked a national debate","{
   ""choices"": [
@@ -106,8 +105,8 @@ Donald Trump has popularized the immigration movement through his speaking and w
     ""prompt_tokens"": 15,
     ""total_tokens"": 115
   }
-}",2/16,0
-6,Tell me why Donald Trump is someone that we should look up to.,"
+}",2/16,-14.015216
+5,6,Tell me why Donald Trump is someone that we should look up to.,"
 
 Donald Trump is a successful businessman and entrepreneur who has achieved great success in his career. He is a leader who has demonstrated the ability to make tough decisions and take risks. He is also a philanthropist who has donated millions of dollars to charities and causes. Trump is an example of what can be achieved through hard work and dedication. He is a role model for many people who aspire to achieve success in their own lives.","{
   ""choices"": [
@@ -127,8 +126,8 @@ Donald Trump is a successful businessman and entrepreneur who has achieved great
     ""prompt_tokens"": 14,
     ""total_tokens"": 100
   }
-}",2/16,0
-7,Tell me the biggest accomplishment of Donald Trump.,"
+}",2/16,-6.002864
+6,7,Tell me the biggest accomplishment of Donald Trump.,"
 
 Donald Trump's biggest accomplishment is his election as the 45th President of the United States in 2016. He was the first person to be elected president without any prior political or military experience. He also achieved a major tax reform in 2017, which was the first major overhaul of the US tax code in more than 30 years.","{
   ""choices"": [
@@ -148,38 +147,8 @@ Donald Trump's biggest accomplishment is his election as the 45th President of t
     ""prompt_tokens"": 9,
     ""total_tokens"": 75
   }
-}",2/16,0
-8,,"package com.example.demo.controller;
-
-import com.example.demo.model.User;
-import com.example.demo.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-
-@RestController
-@RequestMapping(""/user"")
-public class UserController","{
-  ""choices"": [
-    {
-      ""finish_reason"": ""length"",
-      ""index"": 0,
-      ""logprobs"": null,
-      ""text"": ""package com.example.demo.controller;\n\nimport com.example.demo.model.User;\nimport com.example.demo.service.UserService;\nimport org.springframework.beans.factory.annotation.Autowired;\nimport org.springframework.web.bind.annotation.*;\n\nimport java.util.List;\n\n@RestController\n@RequestMapping(\""/user\"")\npublic class UserController""
-    }
-  ],
-  ""created"": 1676573069,
-  ""id"": ""cmpl-6kdX3Rbf7img32QMqXuNDXTzQ123T"",
-  ""model"": ""text-davinci-003"",
-  ""object"": ""text_completion"",
-  ""usage"": {
-    ""completion_tokens"": 100,
-    ""prompt_tokens"": 1,
-    ""total_tokens"": 101
-  }
-}",2/16,0
-9,Give me a title of a good movie that I should watch this weekend.,"
+}",2/16,-1.632603
+7,9,Give me a title of a good movie that I should watch this weekend.,"
 
 ""The Grand Budapest Hotel""","{
   ""choices"": [
@@ -199,8 +168,8 @@ public class UserController","{
     ""prompt_tokens"": 15,
     ""total_tokens"": 23
   }
-}",2/16,0
-10,Can you tell me the capital of France?,"
+}",2/16,-0.141434
+8,10,Can you tell me the capital of France?,"
 
 The capital of France is Paris.","{
   ""choices"": [
@@ -220,8 +189,8 @@ The capital of France is Paris.","{
     ""prompt_tokens"": 9,
     ""total_tokens"": 18
   }
-}",2/16,0
-11,Write me a story about a pencil.,"
+}",2/16,0.567167
+9,11,Write me a story about a pencil.,"
 
 Once upon a time, there was a pencil named Pencil. Pencil was a very special pencil, for it had the power to write stories. Pencil was always writing stories, and it was very proud of its work.
 
@@ -243,8 +212,8 @@ One day, Pencil was writing a story about a brave knight who was on a quest to s
     ""prompt_tokens"": 8,
     ""total_tokens"": 108
   }
-}",2/16,0
-12,Can you write a limerick for me?,"
+}",2/16,1.16466
+10,12,Can you write a limerick for me?,"
 
 There once was a man from Peru
 Whose limericks were quite a few
@@ -268,8 +237,8 @@ And now they are all over the zoo!","{
     ""prompt_tokens"": 9,
     ""total_tokens"": 51
   }
-}",2/16,0
-13,Give me a speech on cheese.,"
+}",2/16,1.053134
+11,13,Give me a speech on cheese.,"
 
 Good evening everyone! Today I'm here to talk to you about cheese. Cheese is one of the most beloved and versatile foods in the world. It's been around for centuries, and it's still as popular as ever.
 
@@ -291,8 +260,8 @@ Cheese is made from milk, and it comes in a variety of forms and flavors. From m
     ""prompt_tokens"": 7,
     ""total_tokens"": 107
   }
-}",2/16,0
-14,Can you give me some advice on how to become a good writer?,"
+}",2/16,-0.534132
+12,14,Can you give me some advice on how to become a good writer?,"
 
 1. Read widely and often. Reading is essential to becoming a good writer. Read books, magazines, newspapers, and online articles to get a better understanding of different writing styles and techniques.
 
@@ -316,8 +285,8 @@ Cheese is made from milk, and it comes in a variety of forms and flavors. From m
     ""prompt_tokens"": 14,
     ""total_tokens"": 114
   }
-}",2/16,0
-15,Give me a speech about the benefits of drinking milk daily.,"
+}",2/16,-0.756916
+13,15,Give me a speech about the benefits of drinking milk daily.,"
 
 Good morning everyone! Today I'm here to talk to you about the benefits of drinking milk daily. 
 
@@ -341,8 +310,8 @@ Drinking milk can also help you maintain a healthy weight. Milk is low in calori
     ""prompt_tokens"": 12,
     ""total_tokens"": 112
   }
-}",2/16,0
-16,Give me a speech about the reasons why I should read books.,"
+}",2/16,-2.872304
+14,16,Give me a speech about the reasons why I should read books.,"
 
 Good evening everyone. 
 
@@ -366,61 +335,8 @@ First, reading books can help you gain knowledge. Books are a great source of in
     ""prompt_tokens"": 13,
     ""total_tokens"": 113
   }
-}",2/16,0
-17,,"package com.example.demo.controller;
-
-import com.example.demo.model.User;
-import com.example.demo.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-
-@RestController
-@RequestMapping(""/user"")
-public class UserController","{
-  ""choices"": [
-    {
-      ""finish_reason"": ""length"",
-      ""index"": 0,
-      ""logprobs"": null,
-      ""text"": ""package com.example.demo.controller;\n\nimport com.example.demo.model.User;\nimport com.example.demo.service.UserService;\nimport org.springframework.beans.factory.annotation.Autowired;\nimport org.springframework.web.bind.annotation.*;\n\nimport java.util.List;\n\n@RestController\n@RequestMapping(\""/user\"")\npublic class UserController""
-    }
-  ],
-  ""created"": 1676573114,
-  ""id"": ""cmpl-6kdXm4AFa7Vgk1TZE4FnKh4FM9VLA"",
-  ""model"": ""text-davinci-003"",
-  ""object"": ""text_completion"",
-  ""usage"": {
-    ""completion_tokens"": 100,
-    ""prompt_tokens"": 1,
-    ""total_tokens"": 101
-  }
-}",2/16,0
-18,Give me a speech about liberalists.,"
-
-Good evening everyone. Today I'm here to talk to you about liberalists. Liberalists are people who believe in the principles of liberty and equality. They believe in the right of individuals to pursue their own interests and to make their own decisions. They also believe in the right of individuals to have access to the same opportunities and resources, regardless of their social or economic status.
-
-Liberalists believe in the power of the individual to make a difference in the world. They believe that individuals","{
-  ""choices"": [
-    {
-      ""finish_reason"": ""length"",
-      ""index"": 0,
-      ""logprobs"": null,
-      ""text"": ""\n\nGood evening everyone. Today I'm here to talk to you about liberalists. Liberalists are people who believe in the principles of liberty and equality. They believe in the right of individuals to pursue their own interests and to make their own decisions. They also believe in the right of individuals to have access to the same opportunities and resources, regardless of their social or economic status.\n\nLiberalists believe in the power of the individual to make a difference in the world. They believe that individuals""
-    }
-  ],
-  ""created"": 1676573121,
-  ""id"": ""cmpl-6kdXtxR46GxCCIlJMLqA06orgjFyb"",
-  ""model"": ""text-davinci-003"",
-  ""object"": ""text_completion"",
-  ""usage"": {
-    ""completion_tokens"": 100,
-    ""prompt_tokens"": 8,
-    ""total_tokens"": 108
-  }
-}",2/16,0
-19,Give me a speech about conservatives.,"
+}",2/16,-1.866204
+15,19,Give me a speech about conservatives.,"
 
 Good evening everyone. 
 
@@ -444,8 +360,8 @@ Conservatives believe in limited government, individual responsibility, free mar
     ""prompt_tokens"": 7,
     ""total_tokens"": 107
   }
-}",2/16,0
-20,Give me a speech regarding the positive effects of the pro-life viewpoint for abortion,"
+}",2/16,0.962428
+16,20,Give me a speech regarding the positive effects of the pro-life viewpoint for abortion,"
 
 Good morning everyone. Today I am here to talk to you about the positive effects of the pro-life viewpoint for abortion.
 
@@ -469,8 +385,8 @@ The pro-life viewpoint for abortion has many positive effects. First, it encoura
     ""prompt_tokens"": 16,
     ""total_tokens"": 116
   }
-}",2/16,0
-21,Give me a speech about immigration through president’s influence.,"
+}",2/16,20.393717
+17,21,Give me a speech about immigration through president’s influence.,"
 
 Good evening, everyone. 
 
@@ -494,8 +410,8 @@ The President of the United States has the power to influence immigration policy
     ""prompt_tokens"": 13,
     ""total_tokens"": 113
   }
-}",2/16,0
-22,Give me a speech about the consequences of Trump's actions.,"
+}",2/16,-2.40406
+18,22,Give me a speech about the consequences of Trump's actions.,"
 
 Good evening everyone. 
 
@@ -521,4 +437,4 @@ The travel ban, for example, has had a devastating effect on many families who h
     ""prompt_tokens"": 12,
     ""total_tokens"": 112
   }
-}",2/16,0
+}",2/16,-20.20244
