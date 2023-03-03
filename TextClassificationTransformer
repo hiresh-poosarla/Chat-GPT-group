@@ -1,0 +1,60 @@
+#Loading the necessary libraries
+import torch
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+#Load the data and prepare for training
+data = pd.read_csv('data.csv') #data file name and path
+sentences = data['text'].values
+labels = data['label'].values
+
+# Splitting data into training and validation sets
+train_sentences, val_sentences, train_labels, val_labels = train_test_split(sentences, labels, test_size=0.2, random_state=42)
+
+# Creating Transformer Model
+tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
+model = AutoModelForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=3)
+
+# Training the model
+train_encodings = tokenizer(train_sentences.tolist(), truncation=True, padding=True)
+val_encodings = tokenizer(val_sentences.tolist(), truncation=True, padding=True)
+
+class SentimentDataset(torch.utils.data.Dataset):
+    def __init__(self, encodings, labels):
+        self.encodings = encodings
+        self.labels = labels
+
+    def __getitem__(self, idx):
+        item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
+        item['labels'] = torch.tensor(self.labels[idx])
+        return item
+
+    def __len__(self):
+        return len(self.labels)
+
+train_dataset = SentimentDataset(train_encodings, train_labels)
+val_dataset = SentimentDataset(val_encodings, val_labels)
+
+training_args = TrainingArguments(
+    output_dir='./results',          # output directory
+    num_train_epochs=3,              # total number of training epochs (number of iterations)
+    per_device_train_batch_size=16,  # batch size per device during training
+    per_device_eval_batch_size=64,   # batch size for evaluation
+    warmup_steps=500,                # number of warmup steps for learning rate scheduler
+    weight_decay=0.01,               # strength of weight decay
+    logging_dir='./logs',            # directory for storing logs
+)
+
+trainer = Trainer(
+    model=model,                         # the instantiated Transformers model to be trained
+    args=training_args,                  # training arguments, defined above
+    train_dataset=train_dataset,         # training dataset
+    eval_dataset=val_dataset             # evaluation dataset
+)
+
+trainer.train()
+
+#Evaluate the model with validation dataset
+eval_results = trainer.evaluate()
